@@ -12,7 +12,7 @@
     --m-backgrd-grdnt: linear-gradient(0deg, #020017, #1f5dab);
     --m-backgrd-shape: polygon(0 100%, 100% 100%, 100% 50%, 90% 0, 20% 20%, 0 0);
 
-    --m-shadow-height: calc(var(--m-margin-size) * 5 + var(--m-icon-size));
+    --m-shadow-height: calc(var(--m-margin-size) * 4 + var(--m-icon-size));
     --m-shadow-shape: var(--m-backgrd-shape);
   }
   .submenu-text {
@@ -32,7 +32,7 @@
     --m-backgrd-grdnt: linear-gradient(0deg, #1f5dab, black);
     --m-backgrd-shape: polygon(0 0, 100% 0, 100% 50%, 90% 100%, 20% 70%, 0 100%);
 
-    --m-shadow-height: calc(var(--m-margin-size) * 9 + var(--m-title-size) * 1.5);
+    --m-shadow-height: calc(var(--m-margin-size) * 7 + var(--m-title-size) * 1.5);
     --m-shadow-shape: var(--m-backgrd-shape);
   }
   .submenu-image {
@@ -41,8 +41,8 @@
 }
 
 :root {
-  --m-foreground-color: #ffffff;
-  --m-hover-color: #87CEFA;
+  --m-foreground-color: #F5F5DC;
+  --m-hover-color: #EAA221;
 }
 
 .menu-wrap {
@@ -60,7 +60,7 @@
     position: absolute;
     width: 100%;
     clip-path: var(--m-shadow-shape);
-    background-color: yellow;
+    background-color: #EAA221;
     height: var(--m-shadow-height);
     bottom: var(--m-bottom);
     z-index: -1;
