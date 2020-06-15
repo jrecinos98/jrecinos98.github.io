@@ -1,0 +1,15 @@
+---
+---
+:root {
+	--margin-size: 3vh;
+}
+
+#recording {
+	margin-left: var(--margin-size) !important;
+	margin-right: var(--margin-size) !important;
+	justify-content: center;
+}
+
+.menu-link-music {
+  background-color: #00000075;
+}

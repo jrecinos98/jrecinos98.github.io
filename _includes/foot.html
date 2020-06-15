@@ -1,0 +1,8 @@
+<!-- Javascript + Bootstrap Libraries -->
+<script src="{{ site.pluginUrl }}/jquery/3.3.1.js"></script>
+<script src="{{ site.pluginUrl }}/sweetalert/2.1.2.js"></script>
+<script src="{{ site.pluginUrl }}/bootstrap/3.3.7.js"></script>
+
+{% for js in page.js %}
+	<script src="{{ site.baseUrl }}/js/{{ js }}"></script>
+{% endfor %}

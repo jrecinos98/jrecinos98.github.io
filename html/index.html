@@ -1,0 +1,42 @@
+---
+permalink: /
+layout: default
+title: Home
+date:   2020-06-14 20:01:41 -0700
+css:
+- "home.css"
+---
+
+<div class="container-main">
+	<div class="header"> Sorry Chen, I ripped you off! </div>
+	<div id="whale-btn" class="btn" onclick="toggleWhale()"> Dive In </div>
+	<div id="whale-wrap">
+		<img id="whale" src="/assets/images/me.png"/>
+	</div>
+</div>
+
+<script>
+var whale_present = false;
+
+function toggleWhale() {
+	if (whale_present) {
+		$('#whale').addClass('diveout');
+		$('#whale').removeClass('idle');
+		$('#whale-btn').text('Dive In');
+		setTimeout(() => {
+			$('#whale').removeClass('diveout');
+		}, 1000);
+	}
+	else {
+		$('#whale').addClass('divein');
+		$('#whale').removeClass('diveout');
+		$('#whale-btn').text('Dive Out');
+		setTimeout(() => {
+			$('#whale').removeClass('divein');
+			$('#whale').addClass('idle');
+		}, 1000);
+	}
+
+	whale_present = !whale_present;
+}
+</script>

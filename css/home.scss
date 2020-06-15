@@ -1,0 +1,103 @@
+---
+---
+@media screen and (orientation: portrait) {
+  :root {
+    --home-whale-size: 50vw;
+    --home-whale-vertical: 20vw;
+    --home-margin-size: 10vw;
+    --home-title-size:  10vw;
+    --home-btn-font-size:  5vw;
+    --home-btn-margin-size:  3vw;
+  }
+}
+@media screen and (orientation: landscape) {
+  :root {
+    --home-whale-size: 50vh;
+    --home-whale-vertical: 20vh;
+    --home-margin-size: 5vh;
+    --home-title-size:  7vh;
+    --home-btn-font-size:  3vh;
+    --home-btn-margin-size:  1vh;
+  }
+}
+
+:root {
+  --background-color: #2f4f4fb3;
+}
+
+body {
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+.container-main {
+	text-align: center;
+}
+
+.header {
+	font-size: var(--home-title-size);
+	margin-top: var(--home-margin-size);
+}
+
+#whale {
+	position: relative;
+	display: none;
+	width: var(--home-whale-size);
+	margin-top: var(--home-margin-size);
+	border-radius: 50%;
+}
+
+#whale-btn {
+	background-color: var(--background-color);
+	border-color: white !important;
+	color: white;
+	font-size: var(--home-btn-font-size) !important;
+	padding: calc(var(--home-btn-margin-size) * 0.5) var(--home-btn-margin-size) !important;
+	border-radius: calc(var(--home-btn-margin-size) * 0.5);
+	margin-top: var(--home-margin-size) !important;
+	border-width: calc(var(--home-btn-margin-size) * 0.1);
+}
+
+#whale-btn:hover {
+	background-color: white !important;
+	border-color: white !important;
+	color: var(--background-color);
+}
+
+#whale-wrap {
+	position: relative;
+}
+
+.idle {
+	// animation: updown 0.5s alternate infinite ease-in-out;
+	display: unset !important;
+}
+
+.divein {
+	animation: divein 1.0s alternate ease-in-out;
+	display: unset !important;
+}
+
+.diveout {
+	animation: diveout 1.0s alternate ease-in-out;
+	display: unset !important;
+}
+
+@keyframes updown {
+	to {transform: translatey(var(--home-whale-vertical));}
+}
+
+@keyframes divein {
+	0%   {margin-top: 120%; transform: rotate(90deg);}
+	100% {margin-top: var(--home-margin-size); transform: rotate(0deg);}
+	display: block;
+}
+
+@keyframes diveout {
+	0%   {left: 0; transform: rotate(0deg);}
+	100% {margin-top: 20%; left: -70%; transform: rotate(-45deg);}
+}
+
+.menu-link-home {
+  background-color: #00000075;
+}
