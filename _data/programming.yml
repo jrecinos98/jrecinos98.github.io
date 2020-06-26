@@ -1,0 +1,16 @@
+- title:       "Gaucho Rides"
+  description: "This is a cross-platform mobile application that provides a convenient and secure way for UCSB students to arrange rides with peers."
+  product:     ""
+  repository:  "https://github.com/jrecinos98/Gaucho-Rides"
+  video:       "https://youtu.be/bXdifCvLfNc"
+
+- title:       "My Personal Website"
+  description: "This website is built to display my side projects and information about myself."
+  product:     "https://jrecinos.com/"
+  repository:  "https://github.com/jrecinos98/jrecinos98.github.io"
+  image:       "/assets/images/my-website.png"
+
+- title:       "Minesweeper App"
+  description: "This is a classic minesweeper applicaiton for Android users."
+  product:     "https://play.google.com/store/apps/details?id=com.game.recinos.myminesweepergame"
+  image:       "/assets/images/minesweeper.webp"
