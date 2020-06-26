@@ -30,9 +30,9 @@
     --m-drop-shadow: drop-shadow(0 1vh 0.5vh rgba(0,0,0,0.5));
 
     --m-backgrd-grdnt: linear-gradient(0deg, #1f5dab, black);
-    --m-backgrd-shape: polygon(0 0, 100% 0, 100% 50%, 90% 100%, 20% 70%, 0 100%);
+    --m-backgrd-shape: polygon(0 15%, 200% 0, 100% 100%, 100% 300%, 47% 60%, 10% 300%);
 
-    --m-shadow-height: calc(var(--m-margin-size) * 7 + var(--m-title-size) * 1.5);
+    --m-shadow-height: calc(var(--m-margin-size) * 8 + var(--m-title-size) * 1.5);
     --m-shadow-shape: var(--m-backgrd-shape);
   }
   .submenu-image {

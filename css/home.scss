@@ -2,8 +2,8 @@
 ---
 @media screen and (orientation: portrait) {
   :root {
-    --home-whale-size: 50vw;
-    --home-whale-vertical: 20vw;
+    --home-whale-size: 45vw;
+    --home-whale-vertical: 25vw;
     --home-margin-size: 10vw;
     --home-title-size:  10vw;
     --home-btn-font-size:  5vw;
@@ -12,8 +12,8 @@
 }
 @media screen and (orientation: landscape) {
   :root {
-    --home-whale-size: 50vh;
-    --home-whale-vertical: 20vh;
+    --home-whale-size: 45vh;
+    --home-whale-vertical: 25vh;
     --home-margin-size: 5vh;
     --home-title-size:  7vh;
     --home-btn-font-size:  3vh;
@@ -44,7 +44,7 @@ body {
 	display: none;
 	width: var(--home-whale-size);
 	margin-top: var(--home-margin-size);
-	border-radius: 50%;
+	border-radius: 90%;
 }
 
 #whale-btn {
