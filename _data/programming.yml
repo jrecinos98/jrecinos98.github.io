@@ -1,3 +1,8 @@
+- title:       "M'Chat"
+  description: "Android Messaging application. It allows users to connect with friends (using their username) to send text and images. It utilizes encryption to protect users privacy and security. It is a project in progress."
+  product:     ""
+  video:       "https://www.youtube.com/embed/fgOq-c-jtUo"
+
 - title:       "Gaucho Rides"
   description: "This is a cross-platform mobile application that provides a convenient and secure way for UCSB students to arrange rides with peers."
   product:     ""
