@@ -15,11 +15,16 @@
 		{% endif %}
 	</div>
 	<div class="bottom">
+	
+		<div class="status">Hello</div>
 		{% if data.product %}
 			<a class="btn" href="{{ data.product }}">Visit</a>
 		{% endif %}
 		{% if data.repository %}
 			<a class="btn" href="{{ data.repository }}">GitHub</a>
+		{% endif %}
+		{% if data.store %}
+			<a class="btn" href="{{ data.repository }}">Play Store</a>
 		{% endif %}
 	</div>
 </div>

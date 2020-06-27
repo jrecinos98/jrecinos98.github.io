@@ -1,21 +1,26 @@
-- title:       "M'Chat"
-  description: "Android Messaging application. It allows users to connect with friends (using their username) to send text and images. It utilizes encryption to protect users privacy and security. It is a project in progress."
-  product:     ""
+- title:       "M'Chat. (IN PROGRESS)"
+  description: "An Android, end-to-end encryption messaging application that allows
+                users to send text and multimedia messages through Wi-Fi/LTE. 
+                It is a privacy and security centered messaging app."
   video:       "https://www.youtube.com/embed/fgOq-c-jtUo"
+  status:      "1"
 
 - title:       "Gaucho Rides"
-  description: "This is a cross-platform mobile application that provides a convenient and secure way for UCSB students to arrange rides with peers."
-  product:     ""
+  description: "A cross-platform mobile application built using React Native. 
+                It provides a convenient and secure way for UCSB students to 
+                arrange shared rides with peers."
   repository:  "https://github.com/jrecinos98/Gaucho-Rides"
   video:       "https://www.youtube.com/embed/bXdifCvLfNc"
 
 - title:       "My Personal Website"
-  description: "This website is built to display my side projects and information about myself."
+  description: "This website is built with the intention of displaying my side projects 
+                and additional information about myself. Built using Jekyll and hosted on Github."
   product:     "https://jrecinos.com/"
   repository:  "https://github.com/jrecinos98/jrecinos98.github.io"
   image:       "/assets/images/my-website.png"
 
 - title:       "Minesweeper App"
-  description: "This is a classic minesweeper applicaiton for Android users."
-  product:     "https://play.google.com/store/apps/details?id=com.game.recinos.myminesweepergame"
+  description: "This is a minesweeper application for Android that aims to replicate 
+                the classic Minesweeper look and feel. Entirely native application created using Java."
+  store:       "https://play.google.com/store/apps/details?id=com.game.recinos.myminesweepergame"
   image:       "/assets/images/minesweeper.webp"

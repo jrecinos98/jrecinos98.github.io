@@ -35,12 +35,14 @@
 
 		iframe {
 			width: 100%;
-			height: 30vh;
+			height: 35vh;
 			border-radius: calc(var(--card-margin-size) / 4);
 		}
 
 		img {
 			width: 100%;
+
+			height: 35vh;
 			border-radius: calc(var(--card-margin-size) / 4);
 		}
 	}
