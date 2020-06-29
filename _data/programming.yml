@@ -1,26 +1,36 @@
-- title:       "M'Chat. (IN PROGRESS)"
+- title:       "M'Chat (IN PROGRESS)"
   description: "An Android, end-to-end encryption messaging application that allows
                 users to send text and multimedia messages through Wi-Fi/LTE. 
                 It is a privacy and security centered messaging app."
   video:       "https://www.youtube.com/embed/fgOq-c-jtUo"
-  status:      "1"
+  apk:         "/assets/applications/M'Chat-debug.apk"
+  repository:  "https://github.com/jrecinos98/M-Chat-Public"
 
-- title:       "Gaucho Rides"
-  description: "A cross-platform mobile application built using React Native. 
-                It provides a convenient and secure way for UCSB students to 
-                arrange shared rides with peers."
-  repository:  "https://github.com/jrecinos98/Gaucho-Rides"
-  video:       "https://www.youtube.com/embed/bXdifCvLfNc"
-
-- title:       "My Personal Website"
+- title:       "My Personal Website (2020)"
   description: "This website is built with the intention of displaying my side projects 
                 and additional information about myself. Built using Jekyll and hosted on Github."
   product:     "https://jrecinos.com/"
   repository:  "https://github.com/jrecinos98/jrecinos98.github.io"
   image:       "/assets/images/my-website.png"
 
-- title:       "Minesweeper App"
+- title:       "Gaucho Rides (2019)"
+  description: "A cross-platform mobile application built using React Native. 
+                It provides a convenient and secure way for UCSB students to 
+                arrange shared rides with peers."
+  repository:  "https://github.com/jrecinos98/Gaucho-Rides"
+  video:       "https://www.youtube.com/embed/bXdifCvLfNc"
+
+- title:       "Minesweeper Android (2018)"
   description: "This is a minesweeper application for Android that aims to replicate 
                 the classic Minesweeper look and feel. Entirely native application created using Java."
+  repository:  "https://github.com/jrecinos98/MineSweeper-Android"
   store:       "https://play.google.com/store/apps/details?id=com.game.recinos.myminesweepergame"
   image:       "/assets/images/minesweeper.webp"
+
+- title:       "Minesweeper Desktop (2018)"
+  description: "A Minesweeper program written in Java. The project contains a GUI version (using Java Swing) and a CLI version of the game.
+                A Java jar is included for demo."
+  jar:         "/assets/applications/Minesweeper.jar"
+  repository:  "https://github.com/jrecinos98/Minesweeper-Desktop"
+  image:       "/assets/images/minesweeper-desktop.png"
+
