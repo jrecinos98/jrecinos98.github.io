@@ -27,7 +27,7 @@
 
 body {
 	overflow-x: hidden;
-	overflow-y: hidden;
+	overflow-y: auto;
 }
 
 .container-main {
@@ -74,7 +74,7 @@ body {
 }
 
 .divein {
-	animation: divein 1.0s alternate ease-in-out;
+	animation: divein 0.60s alternate ease-in-out;
 	display: unset !important;
 }
 
