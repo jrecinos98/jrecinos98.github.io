@@ -1,10 +1,10 @@
+
 - title:       "Minesweeper Desktop"
   description: "A Minesweeper program written in Java. The project contains a GUI version (using Java Swing) and a CLI version of the game.
                 A Java jar is included for demo."
   demo:         "/assets/applications/Minesweeper.jar"
-  repository:  "https://github.com/jrecinos98/Minesweeper-Desktop"
   #image:       "/assets/images/minesweeper-desktop.png"
-
+  repository:  "https://github.com/jrecinos98/Minesweeper-Desktop"
 
 - title:       "Friend Suggester"
   description: "Friend Suggester program using B-Tree. The program can read text files with user data and with the help of a B-tree it can provide friend suggestions."
@@ -13,14 +13,6 @@
 - title:       "Network Audio Simulations"
   description: "Simulation of Audio packets sent over the network and approaches to alleviate common network errors"
   repository:  "https://github.com/jrecinos98/Network-Audio-Simulation"
-
-- title:       "Thread Library"
-  description: "Custom basic thread library."
-  repository:  "https://github.com/jrecinos98/Thread-Library"
-
-- title:       "MIPS Float Adder"
-  description: "An assembly (MIPS) program to add Floating point numbers."
-  repository:  "https://github.com/jrecinos98/Assembly-Float-Adder"
 
 - title:       "Simple Shell"
   description: "A program that uses Unix system calls to service commands that a user would typically use in the default bash shell."
@@ -33,6 +25,14 @@
 - title:       "Network Hangman Game"
   description: "Classic Hangman Game with network capabilities."
   repository:  "https://github.com/jrecinos98/Network-Hang-Man-Game"
+
+- title:       "Thread Library"
+  description: "Custom basic thread library."
+  repository:  "https://github.com/jrecinos98/Thread-Library"
+
+- title:       "MIPS Float Adder"
+  description: "An assembly (MIPS) program to add Floating point numbers."
+  repository:  "https://github.com/jrecinos98/Assembly-Float-Adder"
 
 - title:       "Simple Block Chain"
   description: "Chess Pieces created using Implicit Geometry in Shadertoy"

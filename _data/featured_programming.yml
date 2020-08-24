@@ -6,7 +6,7 @@
   apk:         "/assets/applications/M'Chat-debug.apk"
   repository:  "https://github.com/jrecinos98/M-Chat-Public"
 
-- title:       "Gaucho Rides (2019)"
+- title:       "Gaucho Rides"
   description: "A cross-platform mobile application built using React Native. 
                 It provides a convenient and secure way for UCSB students to 
                 arrange shared rides with peers."
@@ -26,9 +26,10 @@
   image:       "/assets/images/chess.png"
   repository:  "https://github.com/jrecinos98/Graphics-Implicit-Geometry"
 
-- title:       "Bank Database"
-  description: "A mock-up banking system built with Java and Oracle SQL. Through a Java Swing GUI a user can connect with the backend to initiate queries to store/retrieve data depending on the user needs."
-  repository:  "https://github.com/jrecinos98/Bank-Database"
+- title:       "Ping of Death"
+  description: "Ping of Death simulation using custom network stack."
+  repository:  "https://github.com/jrecinos98/Ping-Of-Death"
+  image:       "/assets/images/ping-death.jpg"
 
 - title:       "My Personal Website"
   description: "This website is built with the intention of displaying my side projects 
@@ -36,3 +37,7 @@
   product:     "https://jrecinos.com/"
   image:       "/assets/images/my-website.png"
   repository:  "https://github.com/jrecinos98/jrecinos98.github.io"
+
+- title:       "Bank Database"
+  description: "A mock-up banking system built with Java and Oracle SQL. Through a Java Swing GUI a user can connect with the backend to initiate queries to store/retrieve data depending on the user needs."
+  repository:  "https://github.com/jrecinos98/Bank-Database"
