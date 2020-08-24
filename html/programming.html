@@ -1,13 +1,29 @@
 ---
 permalink: /programming
-title:  Projects
+title: Software Projects
 layout: default
 css:
 - "programming.css"
 ---
 
-<div id="programming" class="row container-main">
-	{% for data in site.data.programming %}
+<div class="container-main">
+	<div class="header"> Side Projects </div>
+	
+</div>
+
+<div id="programming-side-projects" class="row ">
+	{% for data in site.data.side_programming %}
+		{% include card.html data=data %}
+	{% endfor %}
+</div>
+
+<div class="container-main">
+	<div class="header"> School Projects </div>
+	
+</div>
+
+<div id="programming-side-projects" class="row ">
+	{% for data in site.data.school_programming %}
 		{% include card.html data=data %}
 	{% endfor %}
 </div>

@@ -27,4 +27,8 @@
 	<link rel="stylesheet" href="{{ site.baseUrl }}/css/{{ css }}">
 {% endfor %}
 
+{% if site.google_analytics and jekyll.environment == 'production' %}
+{% include analytics.html %}
+{% endif %}
+
 </head>

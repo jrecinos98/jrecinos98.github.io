@@ -1,12 +1,32 @@
 ---
 ---
-:root {
-	--margin-size: 3vh;
+@media screen and (orientation: portrait) {
+  :root {
+  
+    --project-margin-size: 5vw;
+    --project-title-size:  7vw;
+    /*--home-btn-font-size:  5vw;
+    --home-btn-margin-size:  3vw;*/
+  }
+}
+@media screen and (orientation: landscape) {
+  :root {
+   
+    --project-margin-size: 1vh;
+    --project-title-size:  7vh;
+    /*--home-btn-font-size:  3vh;
+    --home-btn-margin-size:  1vh;*/
+  }
 }
 
-#programming {
-	margin-left: var(--margin-size) !important;
-	margin-right: var(--margin-size) !important;
+.header {
+	font-size: var(--project-title-size);
+	margin-top: var(--project-margin-size);
+}
+.container-main {
+	text-align: center;
+}
+#programming-side-projects {
 	justify-content: center;
 }
 

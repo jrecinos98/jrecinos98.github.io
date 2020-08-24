@@ -1,0 +1,41 @@
+- title:       "Implicit Geometry"
+  description: "Chess Pieces created using Implicit Geometry in Shadertoy"
+  demo:        "https://www.shadertoy.com/view/wdfyDH"
+  repository:  "https://github.com/jrecinos98/Graphics-Implicit-Geometry"
+
+- title:       "Bank Database"
+  description: "A mock-up banking system built with Java and Oracle SQL."
+  repository:  "https://github.com/jrecinos98/Bank-Database"
+  
+- title:       "MIPS Float Adder"
+  description: "An assembly (MIPS) program to add Floating point numbers."
+  repository:  "https://github.com/jrecinos98/Assembly-Float-Adder"
+
+- title:       "Thread Library"
+  description: "Custom basic thread library."
+  repository:  "https://github.com/jrecinos98/Thread-Library"
+ 
+- title:       "Friend Suggester"
+  description: "Friend Suggester program using B-Tree. The program can read text files with user data and with the help of a B-tree it can provide friend suggestions."
+  repository:  "https://github.com/jrecinos98/Friend-Suggester"
+
+- title:       "Network Audio Simulations"
+  description: "Simulation of Audio packets sent over the network and approaches to alleviate common network errors"
+  repository:  "https://github.com/jrecinos98/Network-Audio-Simulation"
+
+- title:       "Simple Shell"
+  description: "A program that uses Unix system calls to service commands that a user would typically use in the default bash shell."
+  repository:  "https://github.com/jrecinos98/Simple-Shell"
+
+- title:       "Token Scanner / Parser"
+  description: "An assembly (MIPS) program to add Floating point numbers."
+  repository:  "https://github.com/jrecinos98/Token-Scanner-Parser"
+ 
+- title:       "Network Hangman Game"
+  description: "Classic Hangman Game with network capabilities."
+  repository:  "https://github.com/jrecinos98/Network-Hang-Man-Game"
+
+- title:       "Simple Block Chain"
+  description: "Chess Pieces created using Implicit Geometry in Shadertoy"
+  repository:  "https://github.com/jrecinos98/Simple-Block-Chain"
+
