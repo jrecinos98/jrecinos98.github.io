@@ -41,3 +41,5 @@
 - title:       "Bank Database"
   description: "A mock-up banking system built with Java and Oracle SQL. Through a Java Swing GUI a user can connect with the backend to initiate queries to store/retrieve data depending on the user needs."
   repository:  "https://github.com/jrecinos98/Bank-Database"
+  image:       "/assets/images/er-diagram.png"
+ 
