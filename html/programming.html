@@ -7,23 +7,23 @@ css:
 ---
 
 <div class="container-main">
-	<div class="header"> Side Projects </div>
+	<div class="header"> Featured </div>
 	
 </div>
 
 <div id="programming-side-projects" class="row ">
-	{% for data in site.data.side_programming %}
+	{% for data in site.data.featured_programming %}
 		{% include card.html data=data %}
 	{% endfor %}
 </div>
 
 <div class="container-main">
-	<div class="header"> School Projects </div>
+	<div class="header"> Projects </div>
 	
 </div>
 
 <div id="programming-side-projects" class="row ">
-	{% for data in site.data.school_programming %}
+	{% for data in site.data.unfeatured_programming %}
 		{% include card.html data=data %}
 	{% endfor %}
 </div>

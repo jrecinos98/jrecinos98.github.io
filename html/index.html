@@ -9,7 +9,7 @@ css:
 
 <div class="container-main">
 	<div class="header"> WELCOME! </div>
-	<div id="whale-btn" class="btn" onclick="toggleWhale()"> Dive In </div>
+	<div id="whale-btn" class="btn" onclick="toggleWhale()"> About Me </div>
 	<div id="whale-wrap">
 		<img id="whale" src="/assets/images/me.jpg"/>
 	</div>
@@ -23,7 +23,7 @@ function toggleWhale() {
 	if (whale_present) {
 		$('#whale').addClass('diveout');
 		$('#whale').removeClass('idle');
-		$('#whale-btn').text('Dive In');
+		$('#whale-btn').text('About Me');
 		setTimeout(() => {
 			$('#whale').removeClass('diveout');
 		}, 1000);
@@ -31,7 +31,7 @@ function toggleWhale() {
 	else {
 		$('#whale').addClass('divein');
 		$('#whale').removeClass('diveout');
-		$('#whale-btn').text('Dive Out');
+		$('#whale-btn').text('Good Bye!');
 		setTimeout(() => {
 			$('#whale').removeClass('divein');
 			$('#whale').addClass('idle');
