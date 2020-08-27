@@ -1,3 +1,11 @@
+- title:       "Thread Library"
+  description: "Custom thread library. Provides all functionality of threads such as synchronization (through semaphores), receiving return values from other threads, and thread scheduler."
+  repository:  "https://github.com/jrecinos98/Thread-Library"
+
+
+- title:       "Friend Suggester"
+  description: "Friend Suggester program using B-Tree. The program can read text files with user data and with the help of a B-tree it can provide friend suggestions."
+  repository:  "https://github.com/jrecinos98/Friend-Suggester"
 
 - title:       "Minesweeper Desktop"
   description: "A Minesweeper program written in Java. The project contains a GUI version (using Java Swing) and a CLI version of the game.
@@ -5,10 +13,6 @@
   demo:         "/assets/applications/Minesweeper.jar"
   #image:       "/assets/images/minesweeper-desktop.png"
   repository:  "https://github.com/jrecinos98/Minesweeper-Desktop"
-
-- title:       "Friend Suggester"
-  description: "Friend Suggester program using B-Tree. The program can read text files with user data and with the help of a B-tree it can provide friend suggestions."
-  repository:  "https://github.com/jrecinos98/Friend-Suggester"
 
 - title:       "Network Audio Simulations"
   description: "Simulation of Audio packets sent over the network and approaches to alleviate common network errors"
@@ -18,23 +22,18 @@
   description: "A program that uses Unix system calls to service commands that a user would typically use in the default bash shell."
   repository:  "https://github.com/jrecinos98/Simple-Shell"
 
+- title:       "Simple Block Chain"
+  description: "Basic block chain to track and safely verify transactions in a chain. Every transaction is verified using sender, receiver and a nonce."
+  repository:  "https://github.com/jrecinos98/Simple-Block-Chain"
+
 - title:       "Token Scanner / Parser"
-  description: "An assembly (MIPS) program to add Floating point numbers."
+  description: "Compiler token scanner and parser for a calculator program"
   repository:  "https://github.com/jrecinos98/Token-Scanner-Parser"
  
-- title:       "Network Hangman Game"
-  description: "Classic Hangman Game with network capabilities."
-  repository:  "https://github.com/jrecinos98/Network-Hang-Man-Game"
-
-- title:       "Thread Library"
-  description: "Custom basic thread library."
-  repository:  "https://github.com/jrecinos98/Thread-Library"
-
 - title:       "MIPS Float Adder"
   description: "An assembly (MIPS) program to add Floating point numbers."
   repository:  "https://github.com/jrecinos98/Assembly-Float-Adder"
 
-- title:       "Simple Block Chain"
-  description: "Chess Pieces created using Implicit Geometry in Shadertoy"
-  repository:  "https://github.com/jrecinos98/Simple-Block-Chain"
-
+- title:       "Network Hangman Game"
+  description: "Classic Hangman Game with network capabilities."
+  repository:  "https://github.com/jrecinos98/Network-Hang-Man-Game"
