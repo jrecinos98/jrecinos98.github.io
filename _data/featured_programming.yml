@@ -35,12 +35,3 @@
   description: "Simulation using custom network stack.Exploits the custom stack fails to check package size of reassembled fragments causing an overflow."
   repository:  "https://github.com/jrecinos98/Ping-Of-Death"
   image:       "/assets/images/ping-death.jpg"
-
-- title:       "My Personal Website"
-  description: "This website is built with the intention of displaying my side projects 
-                and additional information about myself. Built using Jekyll and hosted on Github."
-  product:     "https://jrecinos.com/"
-  image:       "/assets/images/my-website.png"
-  repository:  "https://github.com/jrecinos98/jrecinos98.github.io"
-
- 
