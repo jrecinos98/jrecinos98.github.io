@@ -50,10 +50,11 @@
   width: 100%;
   height: 10vh;
   bottom: var(--m-bottom);
-
+  z-index: 2;
   .menu {
     background-image: var(--m-backgrd-grdnt);
     clip-path: var(--m-backgrd-shape);
+    z-index: 2;
   }
 
   .menu-shadow {
@@ -63,7 +64,7 @@
     background-color: #EAA221;
     height: var(--m-shadow-height);
     bottom: var(--m-bottom);
-    z-index: -1;
+    z-index:-1;
 
     &.ex1 {
       background-color: #0f2e55;

@@ -2,22 +2,28 @@
 ---
 @media screen and (orientation: portrait) {
   :root {
-    --home-whale-size: 45vw;
-    --home-whale-vertical: 25vw;
+    --home-me-size: 45vw;
+    --home-me-vertical: 25vw;
     --home-margin-size: 10vw;
     --home-title-size:  10vw;
+    --home-description-size: 4vh;
     --home-btn-font-size:  5vw;
     --home-btn-margin-size:  3vw;
+    --card-box-shadow: 0.6vh 0.5vh 0.1vh rgb(105,105,105);
+	
   }
 }
 @media screen and (orientation: landscape) {
   :root {
-    --home-whale-size: 45vh;
-    --home-whale-vertical: 25vh;
+    --home-me-size: 45vh;
+    --home-me-vertical: 25vh;
     --home-margin-size: 5vh;
     --home-title-size:  7vh;
+    --home-description-size: 4vh;
     --home-btn-font-size:  3vh;
     --home-btn-margin-size:  1vh;
+    --card-box-shadow: 0.6vh 0.5vh 0.1vh rgb(105,105,105);
+	
   }
 }
 
@@ -34,20 +40,51 @@ body {
 	text-align: center;
 }
 */
+
 .header {
 	font-size: var(--home-title-size);
 	margin-top: var(--home-margin-size);
 }
 
-#whale {
-	position: relative;
-	display: none;
-	width: var(--home-whale-size);
-	margin-top: var(--home-margin-size);
-	border-radius: 90%;
+.description-wrap {
+	position: flex;
+	//grid-template-rows: auto auto;
+
+  	//grid-template-columns: auto auto;
+  
+  	margin: 0 auto;
+
+	#me {
+		position: relative !important;
+		width: var(--home-me-size);
+		display: none;
+		margin-top: var(--home-margin-size);
+		border-radius: 90%;
+	}
+
+	#description {
+		
+		position: relative;
+		grid-template-columns: auto auto;
+		justify-content: justify-content;
+		display: none;
+	}
+	.text {
+
+		box-shadow: var(--card-box-shadow);
+		border-radius: 25px;
+		background-color: rgba(255,255,240, 0.75);
+		color: black;
+	    //text-shadow: 1px 0 0;
+		text-align: center;
+		font-size: var(--home-description-size);
+		margin: 30px;
+		padding: 25px;
+
+	}
 }
 
-#whale-btn {
+#description-btn {
 	background-color: var(--background-color);
 	border-color: white !important;
 	color: white;
@@ -58,15 +95,12 @@ body {
 	border-width: calc(var(--home-btn-margin-size) * 0.1);
 }
 
-#whale-btn:hover {
+#description-btn:hover {
 	background-color: white !important;
 	border-color: white !important;
 	color: var(--background-color);
 }
 
-#whale-wrap {
-	position: relative;
-}
 
 .idle {
 	// animation: updown 0.5s alternate infinite ease-in-out;
@@ -84,7 +118,7 @@ body {
 }
 
 @keyframes updown {
-	to {transform: translatey(var(--home-whale-vertical));}
+	to {transform: translatey(var(--home-me-vertical));}
 }
 
 @keyframes divein {
@@ -95,7 +129,7 @@ body {
 
 @keyframes diveout {
 	0%   {left: 0; transform: rotate(0deg);}
-	100% {margin-top: 20%; left: -70%; transform: rotate(-45deg);}
+	100% {margin-top: -45%; left: 100%; transform: rotate(-360deg);}
 }
 
 .menu-link-home {

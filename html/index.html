@@ -9,35 +9,59 @@ css:
 
 <div class="container-main">
 	<div class="header"> WELCOME! </div>
-	<div id="whale-btn" class="btn" onclick="toggleWhale()"> About Me </div>
-	<div id="whale-wrap">
-		<img id="whale" src="/assets/images/me.jpg"/>
+	<div id="description-btn" class="btn" onclick="toggleDescription()"> About Me </div>
+	<div class="description-wrap">
+		<div>
+			<img id="me" src="/assets/images/me.jpg"/>
+		</div>
+		<div id="description">
+			<p class="text">
+			Hello darkness my old friend,Ive come to talk to you again. 
+			Hello darkness my old friend,Ive come to talk to you again.
+			Hello darkness my old friend,Ive come to talk to you again.
+			Hello darkness my old friend,Ive come to talk to you again.
+			Hello darkness my old friend,Ive come to talk to you again.
+			Hello darkness my old friend,Ive come to talk to you again.
+			Hello darkness my old friend,Ive come to talk to you again.
+			Hello darkness my old friend,Ive come to talk to you again.
+			Hello darkness my old friend,Ive come to talk to you again.
+			Hello darkness my old friend,Ive come to talk to you again.
+			<p>
+		</div>
 	</div>
-	
 </div>
 
 <script>
-var whale_present = false;
-
-function toggleWhale() {
-	if (whale_present) {
-		$('#whale').addClass('diveout');
-		$('#whale').removeClass('idle');
-		$('#whale-btn').text('About Me');
+var desc_present = false;
+function toggleDescription() {
+	if (desc_present) {
+		$('#description').addClass('diveout');
+		$('#description').removeClass('idle');
+		$('#me').addClass('diveout');
+		$('#me').removeClass('idle');
+		$('#description-btn').text('About Me');
 		setTimeout(() => {
-			$('#whale').removeClass('diveout');
+			$('#description').removeClass('diveout');
+
+			$('#me').removeClass('diveout');
 		}, 1000);
 	}
 	else {
-		$('#whale').addClass('divein');
-		$('#whale').removeClass('diveout');
-		$('#whale-btn').text('Good Bye!');
+		$('#description').addClass('divein');
+		$('#description').removeClass('diveout');
+		$('#me').addClass('divein');
+		$('#me').removeClass('diveout');
+		
+		$('#description-btn').text('Good Bye!');
 		setTimeout(() => {
-			$('#whale').removeClass('divein');
-			$('#whale').addClass('idle');
+			$('#description').removeClass('divein');
+			$('#description').addClass('idle');
+
+			$('#me').removeClass('divein');
+			$('#me').addClass('idle');
 		}, 1000);
 	}
 
-	whale_present = !whale_present;
+	desc_present = !desc_present;
 }
 </script>
