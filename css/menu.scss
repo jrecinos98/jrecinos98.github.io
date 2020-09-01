@@ -48,7 +48,7 @@
   filter: var(--m-drop-shadow);
   position: fixed;
   width: 100%;
-  height: 10vh;
+  height: 9vh;
   bottom: var(--m-bottom);
   z-index: 2;
   .menu {
@@ -111,7 +111,8 @@
   display: flex;
 
   .menu-link {
-    width: 25%;
+    //33% for only three items
+    width: 33%;
     text-align: center;
   }
   .menu-image {

@@ -2,27 +2,29 @@
 ---
 @media screen and (orientation: portrait) {
   :root {
-    --home-me-size: 45vw;
-    --home-me-vertical: 25vw;
-    --home-margin-size: 10vw;
-    --home-title-size:  10vw;
-    --home-description-size: 4vh;
-    --home-btn-font-size:  5vw;
-    --home-btn-margin-size:  3vw;
-    --card-box-shadow: 0.6vh 0.5vh 0.1vh rgb(105,105,105);
+	--home-me-size: 45vw;
+	--home-image-size: 80vw;
+	--home-me-vertical: 25vw;
+	--home-margin-size: 10vw;
+	--home-title-size:  8vw;
+	--home-description-size: 3vh;
+	--home-btn-font-size:  5vw;
+	--home-btn-margin-size:  3vw;
+	--card-box-shadow: 0.6vh 0.5vh 0.1vh rgb(105,105,105);
 	
   }
 }
 @media screen and (orientation: landscape) {
   :root {
-    --home-me-size: 45vh;
-    --home-me-vertical: 25vh;
-    --home-margin-size: 5vh;
-    --home-title-size:  7vh;
-    --home-description-size: 4vh;
-    --home-btn-font-size:  3vh;
-    --home-btn-margin-size:  1vh;
-    --card-box-shadow: 0.6vh 0.5vh 0.1vh rgb(105,105,105);
+	--home-me-size: 45vh;
+	--home-image-size: 115vh;
+	--home-me-vertical: 25vh;
+	--home-margin-size: 5vh;
+	--home-title-size:  8vh;
+	--home-description-size: 3vh;
+	--home-btn-font-size:  3vh;
+	--home-btn-margin-size:  1vh;
+	--card-box-shadow: 0.6vh 0.5vh 0.1vh rgb(105,105,105);
 	
   }
 }
@@ -48,11 +50,14 @@ body {
 
 .description-wrap {
 	position: flex;
+	background-color: rgba(0,0,0,0.70);
+	box-shadow: var(--card-box-shadow);
+	border-radius: 25px;
 	//grid-template-rows: auto auto;
 
-  	//grid-template-columns: auto auto;
+	//grid-template-columns: auto auto;
   
-  	margin: 0 auto;
+	margin: 0 auto;
 
 	#me {
 		position: relative !important;
@@ -63,25 +68,41 @@ body {
 	}
 
 	#description {
-		
 		position: relative;
-		grid-template-columns: auto auto;
-		justify-content: justify-content;
 		display: none;
-	}
-	.text {
+		.title{
+			font-size: var(--home-title-size);
+			margin-top: var(--home-margin-size);
+			font-style: italic;
+			//font-weight: bold;
+			text-decoration: underline; 
+			//Regulates thickness of underline
+			text-decoration-thickness: 0.5px;
+			//text-shadow: 1px 0 0;
+		}
+		.text {
+			font-size: var(--home-description-size);
+			color: white;
+			
+			text-align: justify;
+			text-justify: inter-word;
+			white-space:pre-wrap;
+			
+			margin: 40px;
+			padding: 25px;
 
-		box-shadow: var(--card-box-shadow);
-		border-radius: 25px;
-		background-color: rgba(255,255,240, 0.75);
-		color: black;
-	    //text-shadow: 1px 0 0;
-		text-align: center;
-		font-size: var(--home-description-size);
-		margin: 30px;
-		padding: 25px;
+		}
 
+		.picture{
+			position: relative !important;
+
+			width: var(--home-image-size);
+			height: auto;
+			margin-top: var(--home-margin-size);
+			border-radius: 10%;
+		}
 	}
+	
 }
 
 #description-btn {

@@ -15,18 +15,17 @@ css:
 			<img id="me" src="/assets/images/me.jpg"/>
 		</div>
 		<div id="description">
-			<p class="text">
-			Hello darkness my old friend,Ive come to talk to you again. 
-			Hello darkness my old friend,Ive come to talk to you again.
-			Hello darkness my old friend,Ive come to talk to you again.
-			Hello darkness my old friend,Ive come to talk to you again.
-			Hello darkness my old friend,Ive come to talk to you again.
-			Hello darkness my old friend,Ive come to talk to you again.
-			Hello darkness my old friend,Ive come to talk to you again.
-			Hello darkness my old friend,Ive come to talk to you again.
-			Hello darkness my old friend,Ive come to talk to you again.
-			Hello darkness my old friend,Ive come to talk to you again.
-			<p>
+			{% for data in site.data.about %}
+				<div class="title"> {{ data.section}}</div>
+				{% if data.image %}
+					{% for i in data.image %}
+						<div >
+							<img class="picture" src= {{ i }} />
+						</div>
+					{% endfor %}
+				{%endif%}
+				<p class="text">{{data.text}} </p>
+			{% endfor %}
 		</div>
 	</div>
 </div>
@@ -50,8 +49,7 @@ function toggleDescription() {
 		$('#description').addClass('divein');
 		$('#description').removeClass('diveout');
 		$('#me').addClass('divein');
-		$('#me').removeClass('diveout');
-		
+		$('#me').removeClass('diveout');		
 		$('#description-btn').text('Good Bye!');
 		setTimeout(() => {
 			$('#description').removeClass('divein');
@@ -61,7 +59,6 @@ function toggleDescription() {
 			$('#me').addClass('idle');
 		}, 1000);
 	}
-
 	desc_present = !desc_present;
 }
 </script>
