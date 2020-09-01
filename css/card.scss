@@ -9,7 +9,8 @@
 }
 
 .info-card {
-	background-color: rgba(128,128,128,0.7);
+	
+	background-color: rgba(0,0,0,0.8);
 	color: white;
 	box-shadow: var(--card-box-shadow);
 
@@ -22,6 +23,7 @@
 	.title {
 		font-size: var(--card-title-size);
 		margin-bottom: calc(var(--card-margin-size) / 2);
+		font-style: italic;
 	}
 
 	.description {

@@ -21,13 +21,15 @@
 
 .header {
 	font-size: var(--project-title-size);
-	margin-top: var(--project-margin-size);
+  font-style: italic;
+	//margin-top: var(--project-margin-size);
 }
 .container-main {
 	text-align: center;
 }
 #programming-side-projects {
 	justify-content: center;
+  margin-bottom: 75px;
 }
 
 .menu-link-coding {
