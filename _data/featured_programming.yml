@@ -32,6 +32,6 @@
   repository:  "https://github.com/jrecinos98/Graphics-Implicit-Geometry"
 
 - title:       "Ping of Death"
-  description: "Simulation using custom network stack.Exploits the custom stack fails to check package size of reassembled fragments causing an overflow."
+  description: "Simulation using custom network stack. Exploits the fact that the custom stack fails to check package size of reassembled fragments causing an overflow."
   repository:  "https://github.com/jrecinos98/Ping-Of-Death"
   image:       "/assets/images/ping-death.jpg"
