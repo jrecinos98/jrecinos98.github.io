@@ -10,7 +10,7 @@
   description: "A cross-platform mobile application built using React Native. 
                 It provides a convenient and secure way for UCSB students to 
                 arrange shared rides with peers."
-  repository:  "https://github.com/jrecinos98/Gaucho-Rides"
+  repository:  "https://github.com/jrecinos98/GauchoRides"
   video:       "https://www.youtube.com/embed/bXdifCvLfNc"
 
 - title:       "Minesweeper"
