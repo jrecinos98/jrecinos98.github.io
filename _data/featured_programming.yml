@@ -13,6 +13,14 @@
   repository:  "https://github.com/jrecinos98/GauchoRides"
   video:       "https://www.youtube.com/embed/bXdifCvLfNc"
 
+- title:       "IGDB Game Search"
+  description: "A Kotlin based Android application which utilizes IGDB REST API to
+                obtain information on searched games and trending games. It employs 
+                clean architecture and MVVM design patterns."
+  video:       "https://www.youtube.com/embed/MhFahMgwvr0"
+  apk:         "/assets/application/IGDB-Search-debug.apk"
+  repository:  "https://github.com/jrecinos98/kippo_challenge"              
+
 - title:       "Minesweeper"
   description: "This is a minesweeper application for Android that aims to replicate 
                 the classic Minesweeper look and feel. Entirely native application created using Java."
