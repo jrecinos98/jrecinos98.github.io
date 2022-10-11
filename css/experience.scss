@@ -1,0 +1,84 @@
+---
+---
+@media screen and (orientation: portrait) {
+  :root {
+
+    --project-margin-size: 5vw;
+    --project-title-size:  7vw;
+    --layout-margin-bottom: 7vw;
+  }
+}
+@media screen and (orientation: landscape) {
+  :root {
+
+    --project-margin-size: 1vh;
+    --project-title-size:  7vh;
+    --layout-margin-bottom: 7vw;
+  }
+}
+
+#resume {
+  text-align: left;
+  width: 70vw;
+  margin: 5rem auto;
+}
+
+.header {
+  font-size: var(--project-title-size);
+  font-style: italic;
+  //margin-top: var(--project-margin-size);
+}
+
+.top-section {
+  display: flex;
+  flex-direction: row;
+  column-gap: 5rem;
+  justify-content: space-between;
+  flex-wrap: wrap-reverse;
+}
+
+.container-main {
+  text-align: center;
+  justify-content: center;
+}
+
+.education-container-main {
+  padding-bottom: var(--layout-margin-bottom);
+  text-align: left;
+  justify-content: left;
+}
+
+.education-section {
+  box-sizing: border-box;
+  display: block;
+  text-align: center;
+}
+
+.education-image{
+  height: 30vw;
+  max-height: 20rem;
+}
+
+.image-shadow {
+  border-radius: 15px;
+  filter: drop-shadow(0px 0px 0px rgba(0,0,0,0.7)) drop-shadow(0px 20px 30px rgba(0,0,0,0.3)) drop-shadow(0px 10px 50px rgba(0,0,0,0.2));
+}
+
+.education-subtitle {
+  margin-top: 3rem;
+  font-size: 18px;
+}
+
+.work-experience {
+  display: flex;
+  column-gap: 5rem;
+  font-size: 18px;
+  margin-bottom: 10rem;
+}
+
+.metadata-side {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  text-align: right;
+}

@@ -14,7 +14,7 @@
   video:       "https://www.youtube.com/embed/bXdifCvLfNc"
 
 - title:       "GameLoggd"
-  description: "A Kotlin game wishlisting application which utilizes IGDB REST API to
+  description: "A Kotlin-based game wishlist application which utilizes IGDB REST API to
                 fetch data on searched and trending games. It employs clean architecture 
                 and MVVM design patterns."
   video:       "https://www.youtube.com/embed/MhFahMgwvr0"
