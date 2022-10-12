@@ -18,7 +18,7 @@
                 fetch data on searched and trending games. It employs clean architecture 
                 and MVVM design patterns."
   video:       "https://www.youtube.com/embed/MhFahMgwvr0"
-  apk:         "/assets/application/IGDB-Search-debug.apk"
+  apk:         "/assets/applications/IGDB-Search-debug.apk"
   repository:  "https://github.com/jrecinos98/GameLoggd"              
 
 - title:       "Minesweeper"
